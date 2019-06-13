@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LITIsEpic.Web", "LITIsEpic.Web\LITIsEpic.Web.csproj", "{392DB519-7F4B-47D4-AF25-178EAA792610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LITIsEpic.Data", "LITIsEpic.Data\LITIsEpic.Data.csproj", "{FF64C6EE-BCAF-4C76-88EF-759C3119AE8C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392DB519-7F4B-47D4-AF25-178EAA792610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392DB519-7F4B-47D4-AF25-178EAA792610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392DB519-7F4B-47D4-AF25-178EAA792610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392DB519-7F4B-47D4-AF25-178EAA792610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF64C6EE-BCAF-4C76-88EF-759C3119AE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF64C6EE-BCAF-4C76-88EF-759C3119AE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF64C6EE-BCAF-4C76-88EF-759C3119AE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF64C6EE-BCAF-4C76-88EF-759C3119AE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
